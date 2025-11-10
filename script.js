@@ -77,7 +77,7 @@ function showModal(title, content) {
 }
 
 // Add scroll effect to hero section
-function addScrollEffect() {
+/*function addScrollEffect() {
     const hero = document.querySelector('.hero');
     
     window.addEventListener('scroll', function() {
@@ -86,7 +86,7 @@ function addScrollEffect() {
         
         hero.style.transform = `translateY(${rate}px)`;
     });
-}
+}*/
 
 // Smooth scrolling for anchor links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
